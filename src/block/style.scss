@@ -1,0 +1,24 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-linked-card  {
+  background: #fcfcfc;
+  border: .0625rem solid #f3f3f3;
+  color: $black;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  position: relative;
+
+	.entry .entry-content > & {
+		max-width: none;
+	}
+
+	.card-link {
+		display: block;
+		padding: .625rem;
+	}
+}
